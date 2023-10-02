@@ -39,3 +39,8 @@ aws-dynamodb
 ## Oracle Cloud
 
 This unique Oracle-assigned request ID header is passed with every response from Oracle cloud. For more information check out: https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/API/Concepts/usingapi.htm
+
+## Azure
+
+Azure Front Door
+- 'X-Azure-Ref:'
