@@ -5,23 +5,24 @@ This is a (hopefully) authoratative listing of all the HTTP headers used by the 
 
 AWS Elastic Load Balancer (ELB & ALB)
 - 'Server: awselb/2.0'
+- 'Set-Cookie: AWSALB='
+- 'Set-Cookie: AWSALBCORS='
 
 aws-cloudfront
 - 'X-Amz-Cf-Id:'
 - 'X-Amz-Cf-Pop:'
 
-
 aws-codebuild
 - "arn: arn:aws:codebuild"
 - 'X-Amz-Meta-Codebuild-Buildarn:'
-- 'x-amz-meta-codebuild-buildarn:'
 - 'X-Amz-Meta-Codebuild-Content-Sha256:'
-- 'x-amz-meta-codebuild-content-sha256:'
 - 'X-Amz-Meta-Codebuild-Content-Md5:'
-- 'x-amz-meta-codebuild-content-md5:'
 
 aws-api-gateway
 - 'X-Amz-Apigw-Id:'
+- 'X-Amzn-Remapped-Connection:'
+- 'X-Amzn-Remapped-Content-Length:'
+- 'X-Amzn-Remapped-Date:'
 
 aws-kms
 - 'X-Amz-Server-Side-Encryption:'
@@ -40,7 +41,28 @@ aws-dynamodb
 
 This unique Oracle-assigned request ID header is passed with every response from Oracle cloud. For more information check out: https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/API/Concepts/usingapi.htm
 
+- 'opc-request-id:'
+- 'x-oracle-apmcs-request-id:' 
+- 'x-oracle-dms-ecid:'
+- 'x-oracle-dms-rid:'
+
 ## Azure
 
 Azure Front Door
 - 'X-Azure-Ref:'
+
+Microsoft Active Directory Federation Services
+- x-ms-proxy-app-id:
+- x-ms-proxy-group-id:
+- x-ms-proxy-subscription-id:
+- x-ms-proxy-transaction-id:
+- x-ms-proxy-service-name:
+- x-ms-proxy-data-center:
+
+## Heroku
+
+Heroku 
+- Set-Cookie: heroku-session-affinity=
+- Server: heroku
+- Reporting-Endpoints: heroku-nel=
+- Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
