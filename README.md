@@ -51,6 +51,14 @@ This unique Oracle-assigned request ID header is passed with every response from
 Azure Front Door
 - 'X-Azure-Ref:'
 
+Azure Functions
+- 'X-Azure-Ref:'
+- 'X-Ms-Clitelem:'
+- 'X-Ms-Ests-Server:'
+
+Azure Storage
+- 'X-Ms-Request-Id:'
+
 Microsoft Active Directory Federation Services
 - x-ms-proxy-app-id:
 - x-ms-proxy-group-id:
@@ -66,3 +74,7 @@ Heroku
 - Server: heroku
 - Reporting-Endpoints: heroku-nel=
 - Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+
+Appian
+- __appianCsrfToken:
+- set-cookie: __appianCsrfToken=
