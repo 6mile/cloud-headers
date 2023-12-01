@@ -41,23 +41,28 @@ aws-dynamodb
 
 This unique Oracle-assigned request ID header is passed with every response from Oracle cloud. For more information check out: https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/API/Concepts/usingapi.htm
 
-- 'opc-request-id:'
-- 'x-oracle-apmcs-request-id:' 
-- 'x-oracle-dms-ecid:'
-- 'x-oracle-dms-rid:'
+- opc-request-id:
+- x-oracle-apmcs-request-id:
+- x-oracle-dms-ecid:
+- x-oracle-dms-rid:
 
 ## Azure
 
 Azure Front Door
-- 'X-Azure-Ref:'
+- X-Azure-Ref:
+- X-Azure-FDID: # A unique ID identifying customer ID in Front Door
+- X-FD-HealthProbe: # A boolean identifying if the request was a backend probe
 
 Azure Functions
-- 'X-Azure-Ref:'
-- 'X-Ms-Clitelem:'
-- 'X-Ms-Ests-Server:'
+- X-Azure-Ref:
+- X-Ms-Clitelem:
+- X-Ms-Ests-Server:
 
 Azure Storage
-- 'X-Ms-Request-Id:'
+- X-Ms-Request-Id:
+
+Azure App Service App Restriction
+- X-Ms-Forbidden-Ip:
 
 Microsoft Active Directory Federation Services
 - x-ms-proxy-app-id:
