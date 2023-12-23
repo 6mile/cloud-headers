@@ -12,6 +12,12 @@ aws-cloudfront
 - 'X-Amz-Cf-Id:'
 - 'X-Amz-Cf-Pop:'
 
+aws-s3
+- 'X-Amz-Replication-Status:'
+- 'X-Amz-Error-Code:'
+- 'X-Amz-Error-Message:'
+- 'X-Amz-Error-Detail-Key:'
+
 aws-codebuild
 - "arn: arn:aws:codebuild"
 - 'X-Amz-Meta-Codebuild-Buildarn:'
