@@ -89,3 +89,10 @@ Heroku
 Appian
 - __appianCsrfToken:
 - set-cookie: __appianCsrfToken=
+
+Platform.sh
+- x-platform-server:
+
+Fly.io
+- fly-request-id:
+
