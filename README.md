@@ -78,21 +78,21 @@ Microsoft Active Directory Federation Services
 - x-ms-proxy-service-name:
 - x-ms-proxy-data-center:
 
-## Heroku
+## Other platforms
 
-Heroku 
+### Heroku 
 - Set-Cookie: heroku-session-affinity=
 - Server: heroku
 - Reporting-Endpoints: heroku-nel=
 - Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 
-Appian
+### Appian
 - __appianCsrfToken:
 - set-cookie: __appianCsrfToken=
 
-Platform.sh
+### Platform.sh
 - x-platform-server:
 
-Fly.io
+### Fly.io
 - fly-request-id:
 
