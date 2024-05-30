@@ -78,6 +78,9 @@ Microsoft Active Directory Federation Services
 - x-ms-proxy-service-name:
 - x-ms-proxy-data-center:
 
+## Google GCP
+- x-cloud-trace-context:
+
 ## Other platforms
 
 ### Heroku 
